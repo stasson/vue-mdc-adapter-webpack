@@ -3,12 +3,16 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 {{/if_eq}}
 import Vue from 'vue'
+import VueMDCAdapter from 'vue-mdc-adapter'
+import './theme.scss'
 import App from './App'
 {{#router}}
 import router from './router'
 {{/router}}
 
 Vue.config.productionTip = false
+
+Vue.use(VueMDCAdapter)
 
 /* eslint-disable no-new */
 new Vue({
