@@ -1,6 +1,6 @@
 <template>
   <div class="hello mdc-typography">
-    <mdc-display>{{ msg }}</mdc-display>
+    <mdc-display>\{{ msg }}</mdc-display>
     <mdc-headline>with support for <a href="https://stasson.github.io/vue-mdc-adapter" target="_blank">vue-mdc-adapter</a></mdc-headline>
     <br>
     <h2>Essential Links</h2>
